@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423EB7F91BB66BFC00860785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB7F81BB66BFC00860785 /* main.m */; };
+		423EB7FC1BB66BFC00860785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB7FB1BB66BFC00860785 /* AppDelegate.m */; };
+		423EB7FF1BB66BFC00860785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB7FE1BB66BFC00860785 /* ViewController.m */; };
+		423EB8021BB66BFC00860785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423EB8001BB66BFC00860785 /* Main.storyboard */; };
+		423EB8041BB66BFC00860785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423EB8031BB66BFC00860785 /* Assets.xcassets */; };
+		423EB8071BB66BFC00860785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423EB8051BB66BFC00860785 /* LaunchScreen.storyboard */; };
+		423EB8121BB66BFC00860785 /* CCMovedButtonDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB8111BB66BFC00860785 /* CCMovedButtonDEMOTests.m */; };
+		423EB81D1BB66BFC00860785 /* CCMovedButtonDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB81C1BB66BFC00860785 /* CCMovedButtonDEMOUITests.m */; };
+		423EB82D1BB66C2B00860785 /* CCMovedBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 423EB82C1BB66C2B00860785 /* CCMovedBtn.m */; settings = {ASSET_TAGS = (); }; };
+		423EB8311BB66CC100860785 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EB8301BB66CC100860785 /* girl.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423EB80E1BB66BFC00860785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423EB7EC1BB66BFC00860785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423EB7F31BB66BFC00860785;
+			remoteInfo = CCMovedButtonDEMO;
+		};
+		423EB8191BB66BFC00860785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 423EB7EC1BB66BFC00860785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423EB7F31BB66BFC00860785;
+			remoteInfo = CCMovedButtonDEMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		423EB7F41BB66BFC00860785 /* CCMovedButtonDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCMovedButtonDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423EB7F81BB66BFC00860785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		423EB7FA1BB66BFC00860785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423EB7FB1BB66BFC00860785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		423EB7FD1BB66BFC00860785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		423EB7FE1BB66BFC00860785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		423EB8011BB66BFC00860785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423EB8031BB66BFC00860785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423EB8061BB66BFC00860785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423EB8081BB66BFC00860785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423EB80D1BB66BFC00860785 /* CCMovedButtonDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMovedButtonDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423EB8111BB66BFC00860785 /* CCMovedButtonDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMovedButtonDEMOTests.m; sourceTree = "<group>"; };
+		423EB8131BB66BFC00860785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423EB8181BB66BFC00860785 /* CCMovedButtonDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMovedButtonDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423EB81C1BB66BFC00860785 /* CCMovedButtonDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCMovedButtonDEMOUITests.m; sourceTree = "<group>"; };
+		423EB81E1BB66BFC00860785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423EB82B1BB66C2B00860785 /* CCMovedBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMovedBtn.h; sourceTree = "<group>"; };
+		423EB82C1BB66C2B00860785 /* CCMovedBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMovedBtn.m; sourceTree = "<group>"; };
+		423EB8301BB66CC100860785 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423EB7F11BB66BFC00860785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB80A1BB66BFC00860785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB8151BB66BFC00860785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423EB7EB1BB66BFC00860785 = {
+			isa = PBXGroup;
+			children = (
+				423EB7F61BB66BFC00860785 /* CCMovedButtonDEMO */,
+				423EB8101BB66BFC00860785 /* CCMovedButtonDEMOTests */,
+				423EB81B1BB66BFC00860785 /* CCMovedButtonDEMOUITests */,
+				423EB7F51BB66BFC00860785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423EB7F51BB66BFC00860785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423EB7F41BB66BFC00860785 /* CCMovedButtonDEMO.app */,
+				423EB80D1BB66BFC00860785 /* CCMovedButtonDEMOTests.xctest */,
+				423EB8181BB66BFC00860785 /* CCMovedButtonDEMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423EB7F61BB66BFC00860785 /* CCMovedButtonDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				423EB82A1BB66C2B00860785 /* CCMovedBtn */,
+				423EB7FA1BB66BFC00860785 /* AppDelegate.h */,
+				423EB7FB1BB66BFC00860785 /* AppDelegate.m */,
+				423EB7FD1BB66BFC00860785 /* ViewController.h */,
+				423EB7FE1BB66BFC00860785 /* ViewController.m */,
+				423EB8001BB66BFC00860785 /* Main.storyboard */,
+				423EB8031BB66BFC00860785 /* Assets.xcassets */,
+				423EB8301BB66CC100860785 /* girl.png */,
+				423EB8051BB66BFC00860785 /* LaunchScreen.storyboard */,
+				423EB8081BB66BFC00860785 /* Info.plist */,
+				423EB7F71BB66BFC00860785 /* Supporting Files */,
+			);
+			path = CCMovedButtonDEMO;
+			sourceTree = "<group>";
+		};
+		423EB7F71BB66BFC00860785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				423EB7F81BB66BFC00860785 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		423EB8101BB66BFC00860785 /* CCMovedButtonDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				423EB8111BB66BFC00860785 /* CCMovedButtonDEMOTests.m */,
+				423EB8131BB66BFC00860785 /* Info.plist */,
+			);
+			path = CCMovedButtonDEMOTests;
+			sourceTree = "<group>";
+		};
+		423EB81B1BB66BFC00860785 /* CCMovedButtonDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423EB81C1BB66BFC00860785 /* CCMovedButtonDEMOUITests.m */,
+				423EB81E1BB66BFC00860785 /* Info.plist */,
+			);
+			path = CCMovedButtonDEMOUITests;
+			sourceTree = "<group>";
+		};
+		423EB82A1BB66C2B00860785 /* CCMovedBtn */ = {
+			isa = PBXGroup;
+			children = (
+				423EB82B1BB66C2B00860785 /* CCMovedBtn.h */,
+				423EB82C1BB66C2B00860785 /* CCMovedBtn.m */,
+			);
+			path = CCMovedBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423EB7F31BB66BFC00860785 /* CCMovedButtonDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423EB8211BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMO" */;
+			buildPhases = (
+				423EB7F01BB66BFC00860785 /* Sources */,
+				423EB7F11BB66BFC00860785 /* Frameworks */,
+				423EB7F21BB66BFC00860785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCMovedButtonDEMO;
+			productName = CCMovedButtonDEMO;
+			productReference = 423EB7F41BB66BFC00860785 /* CCMovedButtonDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		423EB80C1BB66BFC00860785 /* CCMovedButtonDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423EB8241BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMOTests" */;
+			buildPhases = (
+				423EB8091BB66BFC00860785 /* Sources */,
+				423EB80A1BB66BFC00860785 /* Frameworks */,
+				423EB80B1BB66BFC00860785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423EB80F1BB66BFC00860785 /* PBXTargetDependency */,
+			);
+			name = CCMovedButtonDEMOTests;
+			productName = CCMovedButtonDEMOTests;
+			productReference = 423EB80D1BB66BFC00860785 /* CCMovedButtonDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		423EB8171BB66BFC00860785 /* CCMovedButtonDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423EB8271BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMOUITests" */;
+			buildPhases = (
+				423EB8141BB66BFC00860785 /* Sources */,
+				423EB8151BB66BFC00860785 /* Frameworks */,
+				423EB8161BB66BFC00860785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				423EB81A1BB66BFC00860785 /* PBXTargetDependency */,
+			);
+			name = CCMovedButtonDEMOUITests;
+			productName = CCMovedButtonDEMOUITests;
+			productReference = 423EB8181BB66BFC00860785 /* CCMovedButtonDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423EB7EC1BB66BFC00860785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Snake;
+				TargetAttributes = {
+					423EB7F31BB66BFC00860785 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 958X9LCGNW;
+					};
+					423EB80C1BB66BFC00860785 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 958X9LCGNW;
+						TestTargetID = 423EB7F31BB66BFC00860785;
+					};
+					423EB8171BB66BFC00860785 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 958X9LCGNW;
+						TestTargetID = 423EB7F31BB66BFC00860785;
+					};
+				};
+			};
+			buildConfigurationList = 423EB7EF1BB66BFC00860785 /* Build configuration list for PBXProject "CCMovedButtonDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423EB7EB1BB66BFC00860785;
+			productRefGroup = 423EB7F51BB66BFC00860785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423EB7F31BB66BFC00860785 /* CCMovedButtonDEMO */,
+				423EB80C1BB66BFC00860785 /* CCMovedButtonDEMOTests */,
+				423EB8171BB66BFC00860785 /* CCMovedButtonDEMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423EB7F21BB66BFC00860785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423EB8071BB66BFC00860785 /* LaunchScreen.storyboard in Resources */,
+				423EB8311BB66CC100860785 /* girl.png in Resources */,
+				423EB8041BB66BFC00860785 /* Assets.xcassets in Resources */,
+				423EB8021BB66BFC00860785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB80B1BB66BFC00860785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB8161BB66BFC00860785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423EB7F01BB66BFC00860785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423EB82D1BB66C2B00860785 /* CCMovedBtn.m in Sources */,
+				423EB7FF1BB66BFC00860785 /* ViewController.m in Sources */,
+				423EB7FC1BB66BFC00860785 /* AppDelegate.m in Sources */,
+				423EB7F91BB66BFC00860785 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB8091BB66BFC00860785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423EB8121BB66BFC00860785 /* CCMovedButtonDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		423EB8141BB66BFC00860785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423EB81D1BB66BFC00860785 /* CCMovedButtonDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		423EB80F1BB66BFC00860785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423EB7F31BB66BFC00860785 /* CCMovedButtonDEMO */;
+			targetProxy = 423EB80E1BB66BFC00860785 /* PBXContainerItemProxy */;
+		};
+		423EB81A1BB66BFC00860785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423EB7F31BB66BFC00860785 /* CCMovedButtonDEMO */;
+			targetProxy = 423EB8191BB66BFC00860785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		423EB8001BB66BFC00860785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423EB8011BB66BFC00860785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423EB8051BB66BFC00860785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423EB8061BB66BFC00860785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423EB81F1BB66BFD00860785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		423EB8201BB66BFD00860785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423EB8221BB66BFD00860785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCMovedButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		423EB8231BB66BFD00860785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCMovedButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		423EB8251BB66BFD00860785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCMovedButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCMovedButtonDEMO.app/CCMovedButtonDEMO";
+			};
+			name = Debug;
+		};
+		423EB8261BB66BFD00860785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CCMovedButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCMovedButtonDEMO.app/CCMovedButtonDEMO";
+			};
+			name = Release;
+		};
+		423EB8281BB66BFD00860785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCMovedButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCMovedButtonDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		423EB8291BB66BFD00860785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CCMovedButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Snake.CCMovedButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CCMovedButtonDEMO;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423EB7EF1BB66BFC00860785 /* Build configuration list for PBXProject "CCMovedButtonDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EB81F1BB66BFD00860785 /* Debug */,
+				423EB8201BB66BFD00860785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423EB8211BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EB8221BB66BFD00860785 /* Debug */,
+				423EB8231BB66BFD00860785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423EB8241BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EB8251BB66BFD00860785 /* Debug */,
+				423EB8261BB66BFD00860785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		423EB8271BB66BFD00860785 /* Build configuration list for PBXNativeTarget "CCMovedButtonDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423EB8281BB66BFD00860785 /* Debug */,
+				423EB8291BB66BFD00860785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423EB7EC1BB66BFC00860785 /* Project object */;
+}
